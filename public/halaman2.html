@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/public/dist/output.css" />
+    <title>Halaman Selanjutnya</title>
+  </head>
+
+  <body class="bg-slate-900 m-0 p-0 h-full">
+    <div id="parallax-content" class="page slide-down-enter">
+      <!-- Bagian Parallax 1 -->
+      <section
+        id="page-1"
+        class="page bg-cover bg-center h-screen flex items-center justify-center overlay"
+        style="background-image: url('/assets/foto3.jpg')"
+      >
+        <div class="text-white p-4 text-center relative z-10">
+          <h1 class="text-xl py-3">The Memories Of</h1>
+          <div class="text-5xl">
+            <h2 class="font-bold mb-2 font-serif">Nadhif</h2>
+            <h2>&</h2>
+            <h2 class="font-bold mb-2 font-serif">Husna</h2>
+          </div>
+          <p>2018 until Now</p>
+          <p class="text-lg mb-6" id="time-elapsed">
+            <p id="elapsed-time"></p>
+          </p>
+        </div>
+      </section>
+
+      <!-- Bagian Parallax 2 -->
+      <section
+        id="page-2"
+        class="parallax flex items-center justify-center relative overlay sm:h-full"
+        style="background-image: url('/assets/foto2.JPG'); height: 75vh"
+        data-speed="0.3"
+      >
+        <div class="text-white relative z-10 max-w-2xl mx-auto text-center p-6 flex-wrap">
+          <h2 class="text-4xl font-bold mb-4"></h2>
+          <p class="text-lg mb-6">
+            Kenangan lainnya yang ingin kita bagi bersama.
+          </p>
+        </div>
+      </section>
+
+      <!-- Bagian Parallax 3 -->
+      <section
+        id="page-3"
+        class="page bg-cover bg-center flex items-center justify-center relative overlay"
+        style="background-image: url('/assets/foto1.jpeg'); height: 100vh"
+        data-speed="0.3"
+      >
+        <div class="text-white relative z-10 max-w-2xl mx-auto text-center p-6">
+          <h2 class="text-4xl font-bold mb-4">Lebih Banyak Kenangan</h2>
+          <p class="text-lg mb-6">
+            Kenangan lainnya yang ingin kita bagi bersama.
+          </p>
+        </div>
+      </section>
+
+      <!-- Bagian Parallax 4 -->
+      <section
+        id="page-4"
+        class="page bg-cover bg-center h-screen flex items-center relative justify-center overlay"
+        style="background-image: url('/assets/foto3.jpg')"
+      >
+        <div class="text-white p-4 text-center relative z-10">
+          <h1 class="text-xl py-3">The Memories Of</h1>
+          <div class="text-5xl">
+            <h2 class="font-bold mb-2 font-serif">Nadhif</h2>
+            <h2>&</h2>
+            <h2 class="font-bold mb-2 font-serif">Husna</h2>
+          </div>
+          <p>2018 until Now</p>
+        </div>
+      </section>
+    </div>
+    <script src="/js/time.js"></script>
+    <script src="/js/transition-down.js"></script>
+    <script src="/js/parallax.js"></script>
+  </body>
+</html>
